@@ -1,0 +1,33 @@
+2018-05-09 15:47:22,204 - BrowserEngine - INFO - You had select Chrome browser.
+2018-05-09 15:47:22,204 - BrowserEngine - INFO -  The test server url is: https://www.jianshu.com
+2018-05-09 15:47:23,831 - BrowserEngine - INFO - starting chrome browser
+2018-05-09 15:47:25,383 - BrowserEngine - INFO - open url: https://www.jianshu.com
+2018-05-09 15:47:25,595 - BrowserEngine - INFO - Maximize the current window.
+2018-05-09 15:47:25,601 - BrowserEngine - INFO - Set implicitly wait 10 seconds.
+2018-05-09 15:47:28,045 - BasePage - INFO - Had take screenshot and save to folder : /screenshots
+2018-05-09 15:47:28,075 - BasePage - INFO - Had find the element '  ' successful by id via value: session_email_or_mobile_number 
+2018-05-09 15:47:28,152 - BasePage - INFO - Had type ' pp.liu ' in inputBox
+2018-05-09 15:47:28,177 - BasePage - INFO - Had find the element '  ' successful by id via value: session_password 
+2018-05-09 15:47:28,218 - BasePage - INFO - Had type ' 123456 ' in inputBox
+2018-05-09 15:47:28,301 - BasePage - INFO - The element ' 登录 ' was clicked.
+2018-05-09 15:47:30,859 - BasePage - INFO - Had take screenshot and save to folder : /screenshots
+2018-05-09 15:47:30,996 - BrowserEngine - INFO - You had select Chrome browser.
+2018-05-09 15:47:30,996 - BrowserEngine - INFO -  The test server url is: https://www.jianshu.com
+2018-05-09 15:47:32,678 - BrowserEngine - INFO - starting chrome browser
+2018-05-09 15:47:34,578 - BrowserEngine - INFO - open url: https://www.jianshu.com
+2018-05-09 15:47:34,808 - BrowserEngine - INFO - Maximize the current window.
+2018-05-09 15:47:34,810 - BrowserEngine - INFO - Set implicitly wait 10 seconds.
+2018-05-09 15:47:34,835 - BasePage - INFO - Had find the element '  ' successful by id via value: q 
+2018-05-09 15:47:34,938 - BasePage - INFO - Had type ' selenium ' in inputBox
+2018-05-09 15:47:35,069 - BasePage - INFO - The element '  ' was clicked.
+2018-05-09 15:47:37,759 - BasePage - INFO - Had take screenshot and save to folder : /screenshots
+2018-05-09 15:47:37,889 - BrowserEngine - INFO - You had select Chrome browser.
+2018-05-09 15:47:37,889 - BrowserEngine - INFO -  The test server url is: https://www.jianshu.com
+2018-05-09 15:47:39,563 - BrowserEngine - INFO - starting chrome browser
+2018-05-09 15:47:41,094 - BrowserEngine - INFO - open url: https://www.jianshu.com
+2018-05-09 15:47:41,313 - BrowserEngine - INFO - Maximize the current window.
+2018-05-09 15:47:41,316 - BrowserEngine - INFO - Set implicitly wait 10 seconds.
+2018-05-09 15:47:41,357 - BasePage - INFO - Had find the element '  ' successful by id via value: q 
+2018-05-09 15:47:41,438 - BasePage - INFO - Had type ' python ' in inputBox
+2018-05-09 15:47:41,542 - BasePage - INFO - The element '  ' was clicked.
+2018-05-09 15:47:44,214 - BasePage - INFO - Had take screenshot and save to folder : /screenshots
