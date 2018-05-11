@@ -10,8 +10,8 @@ from pageobjects.jianshu_homepage import HomePage
 
 class JianShuSearch(unittest.TestCase):
 
-    @classmethod
-    def setUp(cls):
+    @classmethod  # python的类方法
+    def setUpClass(cls):
         """
         测试固件的setUp()的代码，主要是测试的前提准备工作
         :return:
@@ -20,7 +20,7 @@ class JianShuSearch(unittest.TestCase):
         cls.driver = browse.open_browser(cls)
 
     @classmethod
-    def tearDown(cls):
+    def tearDownClass(cls):
         """
         测试结束后的操作，这里基本上都是关闭浏览器
         :return:
