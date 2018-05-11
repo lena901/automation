@@ -35,11 +35,12 @@ class ExcelUtil():
             return r
 
 
-if __name__ == "__main__":
-    filePath = os.path.dirname(os.path.abspath('.')) + "/config/test_data.xlsx"
-    sheetName = "login"
-    data = ExcelUtil(filePath, sheetName)
-    print(data.dict_data())
+# if __name__ == "__main__":
+#     filePath = os.path.dirname(os.path.abspath('.')) + "/config/test_data.xlsx"
+#     sheetName = "login"
+#     data = ExcelUtil(filePath, sheetName)
+#     print(data.dict_data())
+
 
 
 
