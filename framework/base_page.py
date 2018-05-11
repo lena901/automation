@@ -123,7 +123,7 @@ class BasePage(object):
     def type(self, selector, text):
 
         el = self.find_element(selector)
-        # el.clear()
+        el.clear()
         try:
             el.send_keys(text)
             logger.info("Had type \' %s \' in inputBox" % text)
