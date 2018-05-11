@@ -7,6 +7,7 @@ class LoginPage(BasePage):
     username = "id=>session_email_or_mobile_number"
     pw = "id=>session_password"
     login_btn = "class_name=>sign-in-button"
+    close_pic_btn = "class_name=>geetest_close"
     checkbox_btn = "css_selector=>#session_remember_me"
 
     def type_username(self, text):
@@ -18,5 +19,5 @@ class LoginPage(BasePage):
     def send_login_btn(self):
         self.click(self.login_btn)
 
-    def remember_checkbox(self):
-        self.click(self.checkbox_btn)
+    def close_pic(self):
+        self.click(self.close_pic_btn)
