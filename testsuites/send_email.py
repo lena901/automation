@@ -35,7 +35,7 @@ def send_mail(sender, psw, receiver, smtpserver,reportfile, port=465):
 if __name__ == '__main__':
     reportfile = os.path.dirname(os.path.abspath('.')) + '/test_report/2018-05-13-14_29_36HTMLtemplate.html'#测试报告路径
     smtpserver = "smtp.qq.com"  #  邮箱服务器
-    sender = "472198550@qq.com" # 自己的账号
-    psw = "vruxfbxaweambhej" #自己的密码
-    receiver = "413564524@qq.com" #对方的账号
+    sender = "xxxxx@qq.com" # 自己的账号
+    psw = "xxxx" #自己的密码
+    receiver = "4xxx64524@qq.com" #对方的账号
     send_mail(sender, psw, receiver, smtpserver,reportfile)
