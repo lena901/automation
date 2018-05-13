@@ -39,10 +39,10 @@ class JianShuLogin(unittest.TestCase):
         测试结束后的操作，这里基本上都是关闭浏览器
         :return:
         """
-        cls.driver.quit()
+        self.driver.quit()
 
     @ddt.data(*testData)
-    def test_login(self, data):
+    def test_login_fail(self, data):
         """登录用例"""
         print ("当前测试数据%s" % data)
         # 初始化登录首页
@@ -51,9 +51,13 @@ class JianShuLogin(unittest.TestCase):
         logingo.login(data[u"username"], data[u"password"])
 
         result = logingo.is_login_success()
-        self.assertTrue(result)
-        logingo.get_windows_img()
+        self.assertFalse(result)
 
+    def test_login_success(self):
+        logingo = LoginGo(self.driver)
+        logingo.login("pp.liu", "ping123456")
+        result = logingo.is_login_success()
+        self.assertTrue(result)
 
 if __name__ == "__main__":
     unittest.main()
