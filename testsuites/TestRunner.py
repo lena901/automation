@@ -1,9 +1,11 @@
-
 # coding=utf-8
 import HTMLTestRunner
 import os
 import unittest
 import time
+import sys
+reload(sys)
+sys.setdefaultencoding('utf8')
 
 
 # 设置报告文件保存路径
@@ -16,7 +18,7 @@ HtmlFile = report_path + now + "HTMLtemplate.html"
 fp = file(HtmlFile, "wb")
 
 # 构建suite
-ts = os.path.dirname(os.path.abspath('.'))+ '/testsuites'
+ts = os.path.dirname(os.path.abspath('.')) + '/testsuites/'
 suite = unittest.TestLoader().discover(ts, pattern="test*.py")
 
 if __name__ =='__main__':
